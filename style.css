@@ -1,9 +1,9 @@
 *{
     padding:0;
     margin: 0;
-    overflow: hidden;
+ 
     font-family: cursive;
-    color: black;
+    color: #fff;
     font-weight: 1000;
     
 }
@@ -13,11 +13,15 @@
 }
 
 .back{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: fixed;
-    filter: brightness(80%);
-    background: url("glitter.webp");
+    /* filter: brightness(80%); */
+    background: url("bgf.png");
     background-size:cover;
     /* background-repeat: no-repeat;
     overflow: hidden;
@@ -35,7 +39,7 @@
 .one{
   font-size:75px ;
     padding-left: 5%;
-    color:black;
+    color:goldenrod;
     text-decoration: overline;
     }
 .start {
@@ -45,7 +49,7 @@
     font-size: -100px;
     padding-right: 30% ;
     text-align: center;
-    color:darkblue;
+    color:goldenrod;
     font-style: oblique;
     
 }
@@ -55,7 +59,6 @@
   /* border: 2px solid darkblue;
   border-radius: 20%; */
   /* border-style: inset; */
-  background-color: #da08c8 opacity:5%; 
   font-size: 20px;
     letter-spacing: 2px;
     margin:50px 5px 50px 5px;
@@ -113,44 +116,65 @@
     transition: 0.5ms;
     height: 600px;
     width:75vh;
-    margin:50px 30px 50px 30px;
+    margin:50px 30px 30px 30px;
   }
-  .img2{ border-radius: 20%;
-    text-align: right;
-    height: 700px;
-    margin:100px 30px 50px 30px;
+  .img2{ height: 50%;
+  width: 50%;
+   
+    margin:30px 30px 50px 30px;
   }
   .img3{ 
+    height: 50%;
+  width: 50%;
     margin:50px 30px 50px 30px;
   }
-  .img4{ height: 600px;
-    text-align: right;
+  .img4{ height: 70%;
+    width: 70%;
+     
     margin:50px 30px 50px 30px;
   }
-  .img5{ border-radius: 20%;
+  .img5{ 
+    height: 50%;
+  width: 50%;
     margin:50px 30px 50px 30px;
   }
-  .img6{ height: 700px;
-    text-align: right;
+  .img6{ 
+    height: 50%;
+  width: 50%;
+     
     margin:50px 30px 50px 30px;
   }
-  .img7{ border-radius: 20%;
+  .img7{ 
+    height: 50%;
+  width: 50%;border-radius: 20%;
     margin:50px 30px 50px 30px;
   }
-  .img8{height: 700px;
-    text-align: right;
+  .img8{
+    height: 50%;
+  width: 50%;
+     
     margin:50px 30px 50px 30px;
   }
-  .img9{ border-radius: 20%;
-    margin:50px 30px 50px 30px;
-  }
-  .img10{height: 700px;
-    text-align: right;
-    margin:50px 30px 50px 30px;
-  }
-
-  .img12{
+  .img9{height: 50%;
+    width: 50%;
      border-radius: 20%;
+    margin:50px 30px 50px 30px;
+  }
+  .img10 {
+    height: 60%;
+  width: 60%;
+     
+    margin:50px 30px 50px 30px;
+  }
+  .img12{
+    width: 40%;height: 700px;
+    height: 40%;
+     
+    margin:50px 30px 50px 30px;
+  }
+/* 
+  {
+     border-radius: 20%; */
     /* background-color: #f4511e; */
   /* border: none;
   color: white;
@@ -160,20 +184,20 @@
   margin: 4px 2px;
   opacity: 0.6;
   transition: 0.3s; */
-  width: 75vh;
+  /* width: 75vh;
   height: 10vh;
-  margin:50px 30px 50px 30px;
-}
+  margin:50px 30px 50px 30px; */
+/* } */
 
 /* .img12:hover {opacity: 1} */
 
    
   #memory{
     text-align: center;
-    color: #da08c8;
+    color: #fff;
     font-weight: bold;
     font-size: 25px;
-    background: darkblue;
+    background: rgb(1, 1, 83);
     margin:30px 30% 30px 30%;
     opacity:70%;
     border-radius: 40%;
@@ -186,4 +210,11 @@
     height:100vh;
     width: 100vh;
   }
+
+img{
+  border: 1px solid black;
+  border-radius: 2%;
+  height: 80%;
+  width: 90%;
+}
  
